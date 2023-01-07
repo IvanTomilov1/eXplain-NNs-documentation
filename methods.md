@@ -10,6 +10,11 @@ Visualization is performed on the data, provided by the user. The method takes r
 [2] Tipping, M. E., and Bishop, C. M. (1999). “Probabilistic principal component analysis”. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611-622.
 
 ## Homologies
+Persistent homologies of data images on layers of neural network are suggested as qualitative characteristics of intra-layer manifold transformations by the neural network.
+
+Persistent homologies [1] evaluation is performed on the data, provided by the user. The method takes representations on some layers (specified by the user). For those representations persistent homologies with fixed coefficient type and  are computed (based on Vietoris-Rips complex or Sparse Vietoris–Rips filtration) and transformed to barcodes for visual representation.
+
+[1] Tristan Gowdridge, Nikolaos Devilis, Keith Worden, On topological data analysis for SHM; an introduction to persistent homology, arXiv:2209.06155, 2022
 
 ## Uncertainty Estimation via Bayesianization
 One of the advantages of Bayesian neural networks (BNNs) [1] over classic ones (NNs) is their ability to evaluate uncertainty of their prediction. Our library takes advantage of this property of Bayesian neural networks. We provide a collection of methods that allows to build a Bayesian version of the trained neural network (to perform _bayesianisation_) and use the Bayesian model to evaluate uncertainty of the model.
